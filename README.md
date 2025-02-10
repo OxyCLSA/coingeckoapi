@@ -5,6 +5,7 @@ Este projeto demonstra o consumo da API da CoinGecko para obter informações so
 ## Funcionalidades
 
 * **GET /api/coins/{coinId}**: Retorna dados detalhados sobre uma criptomoeda específica, utilizando o ID fornecido pela CoinGecko.
+* http://localhost:8080/api/coins/bitcoin
 * {
   "id": "bitcoin",
   "symbol": "btc",
