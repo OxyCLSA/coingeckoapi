@@ -1,5 +1,6 @@
 package br.com.coingeckoapi.controller;
 
+import br.com.coingeckoapi.model.CoinData;
 import br.com.coingeckoapi.service.CoinGeckoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +16,7 @@ public class CoinGeckoController {
     private CoinGeckoService coinGeckoService;
 
     @GetMapping("/{coinId}")
-    public String getCoinData(@PathVariable String coinId) {
+    public CoinData getCoinData(@PathVariable String coinId) {
         return coinGeckoService.getCoinData(coinId);
     }
 }
