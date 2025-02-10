@@ -34,4 +34,4 @@ Este projeto demonstra o consumo da API da CoinGecko para obter informações so
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://www.google.com/search?q=https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)  # Substitua pelo seu repositório
+   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git] # Substitua pelo seu repositório
